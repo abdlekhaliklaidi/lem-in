@@ -11,6 +11,7 @@ import (
 	"lemin/simulator"
 )
 
+
 func main() {
 	if len(os.Args) != 2 {
 		log.Fatalln("usage: go run . <filename>")
